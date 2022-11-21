@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,46 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/headphones.svg" type="image/x-icon">
 </head>
+
 <body>
     <h1>MINHA BATERIA 🥁</h1>
+    <!-- caixa principal -->
     <div class="keys">
+        <!-- primeira linha de botões -->
         <div class="key" data-key="keyq">Q</div>
         <div class="key" data-key="keyw">W</div>
         <div class="key" data-key="keye">E</div>
+        <!-- segunda linha de botões -->
         <div class="key" data-key="keya">A</div>
         <div class="key" data-key="keys">S</div>
         <div class="key" data-key="keyd">D</div>
+        <!-- terceira linha de botões -->
+        <div class="key" data-key="keyz">z</div>
+        <div class="key" data-key="keyx">x</div>
+        <div class="key" data-key="keyc">c</div>
     </div>
+    <!-- caixa composição -->
+    <div class="composer">
+        <input type="text" name="" id="input" placeholder="Faça sua composição">
+        <button>Tocar</button>
+    </div>
+    <!-- rodapé -->
+    <footer>Desenvolvido por: Ryan Fernando</footer>
+    <!-- tags de áudio -->
+    <!-- primeira linha de tags de áudio -->
+    <audio src="sounds/keyq.wav" id="s_keyq"></audio>
+    <audio src="sounds/keyw.wav" id="s_keyw"></audio>
+    <audio src="sounds/keye.wav" id="s_keye"></audio>
+    <!-- segunda linha de tags de áudio -->
+    <audio src="sounds/keya.wav" id="s_keya"></audio>
+    <audio src="sounds/keys.wav" id="s_keys"></audio>
+    <audio src="sounds/keyd.wav" id="s_keyd"></audio>
+    <!-- terceira linha de tags de áudio -->
+    <audio src="sounds/keyz.wav" id="s_keyz"></audio>
+    <audio src="sounds/keyx.wav" id="s_keyx"></audio>
+    <audio src="sounds/keyc.wav" id="s_keyc"></audio>
+    <!-- javascrip - arquivio de funcionalidade -->
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>
